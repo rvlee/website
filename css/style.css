@@ -1,7 +1,7 @@
 body {
 	font-family: 'Nunito', sans-serif;
 	color: #FAF3BC;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	background: #000000 url('img/texture.png') repeat;
 }
 
 a {
@@ -16,16 +16,17 @@ h1{
 
 h2{
 	font-size: 1.500em;
-	color: #B4C34F;
+	color: #0041C2;
 }
 
 .btn {
 	color: #FAF3BC;
 	background: #3FB69F url('img/texture.png') no-repeat right top;
-	padding: 15px 30px;
-	margin: 40px 0px;
+	padding: 5px 15px;
+	margin: 40px 0 0 0;
 	border-radius: 25px;
-	text-transform: uppercase;
+	list-style: none;
+
 }
 
 .btn:hover {
@@ -33,7 +34,8 @@ h2{
 }
 
 ul.nav {
-	margin: 120px 0 0 0;
+	margin: 80px 0 0 0;
+	font-size: 1.700em;
 	list-style: none;
 	float: right;
 }
@@ -52,12 +54,18 @@ ul.nav li a {
 	margin: 50px 0 75px 0;
 }
 
-#new-cupcakes img {
+#me img {
 	border: 8px solid #FAF3BC;
 	margin: 0 0 20px 0;
 }
 
-#featured-cupcake img {
+
+#something_about_me img {
+	border: 8px solid #FAF3BC;
+	margin: 0 0 20px 0;
+}
+
+#quirky img {
 	border: 8px solid #FAF3BC;
 }
 
